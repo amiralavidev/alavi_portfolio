@@ -1,3 +1,4 @@
+{% load static %}
 <section id="home" class="hero-section">
 
     <div class="hero-container">
@@ -64,12 +65,11 @@
             <div class="hero-glow"></div>
 
             <div class="hero-image-wrapper">
-
                 <img
-                    src="/static/images/hero.png"
+                    src="{% static 'images/hero.png' %}"
                     alt="Developer working with AI and code"
-                    class="hero-image"
                 >
+
 
             </div>
 
